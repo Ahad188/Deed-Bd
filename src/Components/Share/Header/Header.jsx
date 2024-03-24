@@ -10,7 +10,7 @@ export const Header = () => {
      </>
 
   return (
-    <div className="bg-[#2d3647] px-3 h-[80px]">
+    <div className="bg-[#2d3647] px-3  ">
        <div className="navbar font-bold text-[#e8ecef]">
      <div className="navbar-start gap-5">
          <div className="dropdown">
