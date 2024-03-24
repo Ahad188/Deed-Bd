@@ -10,7 +10,7 @@ export const Header = () => {
      </>
 
   return (
-    <div className="bg-[#2d3647] px-3">
+    <div className="bg-[#2d3647] px-3 h-[80px]">
        <div className="navbar font-bold text-[#e8ecef]">
      <div className="navbar-start gap-5">
          <div className="dropdown">
@@ -22,7 +22,7 @@ export const Header = () => {
              </ul>
          </div>
          <a className="    text-xl"> 
-         <img src='https://deedbangladesh.com/dbImages/dbl/deed_logo_500.png' className="w-[120px]" alt="logo" />
+         <img src='https://deedbangladesh.com/dbImages/dbl/deed_logo_500.png' className="w-[120px] h-[40px]" alt="logo" />
           
          </a>
      </div>
