@@ -2,7 +2,7 @@
 
 export default function FreeConsultation() {
   return (
-    <section className="md:px-10 my-10">
+    <section className="md:px-10 my-10 mt-[100px]">
           <div className="md:grid md:grid-cols-2">
                 <div className="video my-5" data-aos="fade-up-right">
                 <iframe className="w-[100%] md:w-[560px]"   height="315" src="https://www.youtube.com/embed/5HN8q8K9Xw4?si=zbrWNdEjTOW4EA8u" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"   allowfullscreen></iframe>
@@ -15,7 +15,7 @@ export default function FreeConsultation() {
                     <li className="list"> Winning Amazon FBA & Walmart Management!</li>
                     <li className="list"> Expertly Crafted Amazon Appeals that will Get You Selling Again!</li>
                </ul>
-               <a href="#" className="btn btn-accent p-3"> Contact us</a>
+               <a href="#" className="btn btn-accent p-3 w-[120px] "> Contact us</a>
             </div>
           </div>
     </section>
