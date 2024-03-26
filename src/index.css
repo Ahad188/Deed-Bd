@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.b{
-     border: 2px solid red;
+.b {
+  border: 2px solid red;
+}
+.list {
+  position: relative;
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+  color: #000;
+  padding: 10px 0;
+}
+.list::before {
+  position: absolute;
+  content: ">";
+  top: 10px;
+  left: -15px;
+  font-size: 18px;
+  color: aqua;
 }

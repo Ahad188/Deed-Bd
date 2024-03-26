@@ -14,7 +14,9 @@ export const Banner = () => {
         strength={800}
       >
         <div className="md:grid md:grid-cols-2 md:items-center absolute mt-0 md:mt-[6%] md:ml-[10%] md:gap-10">
-          <div className=" banner left md:w-[550px] bg-slate-600 px-4">
+          <div className=" banner  left md:w-[550px] bg-slate-600 px-4"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <p className=" w-[400px] mx-auto mt-10 text-center text-white text-[17px] leading-[28px] font-[400] my-5">
               Appeal Your Amazon, Walmart or eBay Suspension & Get Your Seller Account or Product
               Listing Reinstated in as Little as (24) Hours with Mari Marketing!{" "}
@@ -45,7 +47,9 @@ export const Banner = () => {
               </a>
             </div>
           </div>
-          <div className=" banner right hidden md:block md:w-[550px] h-[550px]  bg-slate-500">
+          <div className=" banner right hidden md:block md:w-[550px] h-[550px]  bg-slate-500"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
             <h2 className="text-center text-white text-3xl my-5">Submit your information</h2>
             <div className="my-4 flex justify-evenly">
               <input
