@@ -11,7 +11,7 @@ export const Banner = () => {
         blur={0}
         bgImage={img}
         bgImageAlt="the cat"
-        strength={800}
+        strength={900}
       >
         <div className="md:grid md:grid-cols-2 md:items-center absolute mt-0 md:mt-[6%] md:ml-[10%] md:gap-10">
           <div className=" banner  left md:w-[550px] bg-slate-600 px-4"  data-aos="fade-down"
