@@ -47,6 +47,7 @@ export default function WhychosseUs() {
             </a>
           </h4>
         </div>
+       
       </Parallax>
     </div>
   );
