@@ -1,4 +1,5 @@
 import { Banner } from "../Banner/Banner"
+import Brand from "../Brand/Brand"
 import FreeConsultation from "../FrerConstant/FreeConsultation"
 import OurSuccess from "../OurSuccess/OurSuccess"
 import PorchesWork from "../PorchesWork/PorchesWork"
@@ -13,6 +14,7 @@ export const Home = () => {
     <div> 
      <Banner></Banner>
      <FreeConsultation></FreeConsultation>
+     <Brand></Brand>
      <Services></Services>
      <PorchesWork></PorchesWork>
      <WhychosseUs></WhychosseUs>
