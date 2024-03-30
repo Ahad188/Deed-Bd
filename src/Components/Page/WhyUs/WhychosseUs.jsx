@@ -5,7 +5,9 @@ export default function WhychosseUs() {
   return (
     <div className="   my-10 mt-[110px]">
       <Parallax className="md:h-[90vh]   " blur={10} bgImage={img} bgImageAlt="the cat" >
-        <div className=" my-10 px-5 md:px-0 bg-white  md:max-w-[800px] py-12 mx-auto rounded-xl shadow-xl" data-aos="zoom-in-up">
+        <div className=" my-10 px-5 md:px-0 bg-white  md:max-w-[800px] py-12 mx-auto rounded-xl shadow-xl" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
           <h2 className="text-5xl text-center text-yellow-500 font-bold leading-[30px] mb-5">
             Why choose us
           </h2>
