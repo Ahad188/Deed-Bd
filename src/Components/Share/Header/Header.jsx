@@ -4,9 +4,9 @@ export const Header = () => {
 
      const navOptions = <>
      <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="/">Home</a></li>
-     <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="#">About</a></li>
-     <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="#">Service</a></li>
-     <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="#">Contact</a></li>
+     <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="/about">About</a></li>
+     <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="/service">Service</a></li>
+     <li className="hover:border-b Hover:border-orange-600"><a className="hover:text-[#ffc600]" href="/contact">Contact</a></li>
      </>
 
   return (

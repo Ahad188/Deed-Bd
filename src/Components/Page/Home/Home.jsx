@@ -21,6 +21,7 @@ export const Home = () => {
      <WhychosseUs></WhychosseUs>
      <OurSuccess></OurSuccess>
      <ClientSay></ClientSay>
+      
     </div>
   )
 }
